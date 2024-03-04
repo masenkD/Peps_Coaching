@@ -1,0 +1,42 @@
+footer {
+    position: relative;
+    background-color: #e2e2e2;
+}
+
+.contactez--nous {
+    @include flex(center,row,center);
+    @include proprietesBlock;
+
+    aside {
+        @include paddingRight;
+        padding-left: 340px;
+    }
+
+    article {
+        @include paddingLeft;
+        border-left: 2px solid black;
+        width: 450px;
+    }
+}
+
+
+
+
+.pieddepage {
+    @include flex(center,row,center);
+
+    li {
+        margin: 1rem;
+    }
+    a {
+        color: black;
+        padding-right: 1rem;
+
+        &:hover {
+            color: goldenrod;
+            padding-right: 1rem;
+        }
+    }
+}
+
+

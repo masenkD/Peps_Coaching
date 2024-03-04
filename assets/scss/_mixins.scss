@@ -1,0 +1,39 @@
+@mixin flex($just:center, $dir:row,$align) {
+    display: flex;
+    justify-content: $just;
+    flex-direction: $dir;
+    align-items: $align;
+    flex-wrap: wrap;
+}
+
+@mixin proprietesBlock {
+    padding: 25px 100px 25px;
+}
+
+@mixin paddingLeft {
+    padding-left: 40px;
+}
+@mixin paddingRight {
+    padding-right: 40px;
+}
+
+@mixin boutonsMain {
+    width: 110px;
+    height: 15px;
+    padding: 10px 30px 10px;
+    background-color: white;
+    color: #ff4676;
+    border-radius: 8%;
+    border: 1px solid #ff4676;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    position: relative;
+}
+
+@mixin hoverboutonsMain {
+
+        background-color: #ff4676;
+        color: white;
+        border: 1px solid white;
+    }

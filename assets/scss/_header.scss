@@ -1,0 +1,38 @@
+header {
+    height: 420px;
+    background-image: url(../images/photo-1556139943-4bdca53adf1e\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    h1 {
+        color: black;
+        font-size: 60px;
+        position: relative;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 1rem;
+    }
+}
+
+.contactez-nous {
+    width: 150px;
+    height: 15px;
+    padding: 15px 18px;
+    background-color: #ff4676;
+    color: white;
+    border-radius: 5%;
+
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+   
+
+.contactez-nous:hover {
+    background-color: goldenrod;
+}

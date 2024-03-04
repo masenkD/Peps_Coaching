@@ -1,0 +1,226 @@
+.approche {
+    @include flex(center,column,center);
+    @include proprietesBlock;
+
+    h2 {
+        margin-bottom: 10px;
+    }
+}
+
+.DRH {
+    @include proprietesBlock;
+    @include flex(center,row,center);
+
+    aside {
+        @include paddingRight; 
+    }
+
+    article {
+        @include paddingLeft;
+        h3 { 
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.methode {
+    @include flex(center,column,center);
+    @include proprietesBlock;
+
+    h2 {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+.comprendre {
+    @include flex(center,row,center);
+    @include proprietesBlock;
+
+    aside {
+        @include paddingRight;
+        text-align: center;
+        width: 500px;
+    }
+
+    article {
+        @include paddingLeft;
+        text-align: center;
+        width: 500px;
+    }
+}
+
+.identifier {
+    @include flex(center,row,center);
+    @include proprietesBlock;
+
+    aside {
+        @include paddingRight;
+        text-align: center;
+        width: 500px;
+    }
+
+    article {
+        @include paddingLeft;
+        text-align: center;
+        width: 500px;
+    }
+}
+
+.accompagnements {
+    @include flex(center,column,center);
+    @include proprietesBlock;
+    text-align: center;
+    p {
+        margin-bottom: 10px;
+    }
+}
+
+.peps {
+    @include flex(space-evenly,row,center);
+    @include proprietesBlock;
+
+    aside {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        font-weight: bold;
+        text-align: center;
+        h2 {
+            text-decoration: underline 5px #cd84eb;
+            margin-bottom: 30px;
+        }
+        p {
+            margin-bottom: 30px;
+        }
+    }
+
+    .talents {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        font-weight: bold;
+        text-align: center;
+        
+        h2 {
+            text-decoration: underline 5px #41d9c7;
+            margin-bottom: 30px;
+        }
+
+        p {
+            margin-bottom: 30px;
+        }
+    }
+    .carriere {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        font-weight: bold;
+        text-align: center;
+        h2 {
+            text-decoration: underline 5px #ffe17a;
+            margin-bottom: 30px;
+        }
+        p {
+            margin-bottom: 30px;
+        }
+    }
+
+}
+
+.noregret {
+    @include flex(center,column,center);
+    text-align: center;
+    padding-bottom: 60px;
+
+    h2{
+        margin-top: 35px;
+    }
+}
+
+.recommendations {
+    @include flex(space-evenly,row,center);
+    @include proprietesBlock;
+    text-align: center;
+
+    aside {
+       
+        border: 1px solid #41d9c7;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        
+        img {
+            transform:translateY(-3em);
+        }
+    }
+
+    article {
+        
+        border: 1px solid #41d9c7;
+        width: 300px;
+        height: 300px;
+        position: relative;
+
+        img {
+            transform:translateY(-3em);
+        }
+    }
+}
+
+.blog {
+    @include flex(center,column,center);
+    @include proprietesBlock;
+}
+
+.superpower {
+    @include flex(space-evenly,row,center);
+    @include proprietesBlock;
+    
+    article {
+        width: 800px;
+    }
+
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        a {
+            
+         }
+}
+
+.entreprise {
+    @include flex(space-evenly,row,center);
+    @include proprietesBlock;
+    position: relative;
+
+    article {
+        width: 800px;
+    }
+
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        a {
+            
+         }
+}
+
+.buttons {
+    @include boutonsMain
+}
+
+.buttons:hover {
+    @include hoverboutonsMain;
+}

@@ -1,0 +1,36 @@
+nav {
+    position: relative;
+    background-color: white;
+}
+
+nav img {
+    height: 65px;
+    width: 55px;
+    left: 5%;
+    top: 8px;
+    position: absolute;
+}
+
+
+.menu {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+
+    li {
+        margin: 1rem;
+    }
+    a {
+        color: black;
+        font-weight: bold;
+        padding-right: 1rem;
+    }
+        a:hover {
+            color: goldenrod;
+            font-weight: bold;
+            padding-right: 1rem;
+        }
+}
+

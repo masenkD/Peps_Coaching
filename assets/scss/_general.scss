@@ -4,3 +4,13 @@
     list-style:none;
     ;text-decoration: none;
 }
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: "Roboto Regular";
+    margin: 0;
+}
